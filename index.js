@@ -8,7 +8,7 @@ const cors = require('cors');
 
 
 var corsOptions = {
-  origin: 'http://localhost:3000',  //* 모두허용
+  origin: '*',  //* 모두허용
 }
 
 app.use(cors(corsOptions));
